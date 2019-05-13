@@ -1,0 +1,377 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family:"微软雅黑";
+}
+body {
+  background: url(../images/7.jpg) fixed center center no-repeat;
+  background-size:cover;
+  width: 100%;
+}
+input{
+	cursor:pointer;
+}
+.wholepage{
+	width:100%;
+	position: absolute;
+	background: rgba(255,255,255,0.4);
+	/*border:1px solid red;*/
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+.head_pic a:hover{
+	color:black;
+}
+li{
+	list-style: none;
+}
+.logo{
+	width:100%;
+	height:80px;
+	position: fixed;
+	z-index: 10;
+	top:0px;
+	left:0px;
+	background:rgb(93,156,236);
+	/*background-color: gray;*/
+}
+.fant-art{
+	float:left;
+}
+.art{
+	font-size:300%;
+	font-family: "kunstler script";
+	font-weight: bold;
+	float:left;
+	position: relative;
+	margin-left:20px;
+	margin-top:10px;
+	color:white;
+}
+.art_two{
+	font-size:200%;
+	position: relative;
+	color:white;
+	float:left;
+	margin-top:20px;
+	font-family: "方正舒体";
+}
+.head_pic{
+	float:right;
+}
+.pic_logo{
+	width:60px;
+	height:60px;
+	background-image:url(../images/10.gif);
+	/*border:1px solid rgb(157,168,206);*/
+	border-radius: 50%;
+	margin-top:10px;
+	float:left;
+}
+.pic_font{
+	color:white;
+	float:left;
+	margin-left:15px;
+	margin-top:30px;
+}
+.exit{
+	float:right;
+	margin-left:35px;
+	margin-top:29px;
+	margin-right:20px;
+}
+.exit input{
+	width:40px;
+	height:25px;
+	background:white;
+	border:1px solid white;
+	border-radius:10px;
+	color:rgba(62,118,177,0.9);
+	cursor: pointer;
+}
+#wholepage_two{
+	width:1000px;
+	margin:79px auto 0px auto;
+	border-top:1px solid white;
+}
+.backg{
+	width:1000px;
+	height:20px;
+	position: fixed;
+	background-color: #eee;
+	float:left;
+	z-index: 10;
+}
+.time{
+	width:1000px;
+	height:90px;
+	position: fixed;
+	margin-top:20px;
+	float:left;
+	z-index: 10;
+	background-color: white;
+	box-shadow: 0px 5px 10px #ccc;
+}
+.team_name{
+	float:left;
+	margin-left:10px;
+	margin-top:5px;
+}
+.team_name span{
+	font-size:160%;
+}
+.team_name ul{
+	list-style: none;
+}
+#time_con{
+	width:100px;
+	height:30px;
+	font-size:20px;
+	margin-top:5px;
+}
+.submit_one{
+	float:right;
+	margin-right:20px;
+	margin-top:-15px;
+}
+.submit_one ul{
+	list-style: none;
+}
+#size{
+	width:65px;
+	height:30px;
+	margin-top:5px;
+	color:white;
+	background-color: rgb(93,156,236);
+	border:1px solid rgb(93,156,236);
+	border-radius: 10px;
+}
+#jia{
+	float:left;
+	font-weight:lighter;
+	cursor:pointer;
+	margin-left:12px;
+	margin-right:5px;
+	font-size: 110%;
+}
+#jia input{
+	width:12px;
+	height:20px;
+	color:white;
+	font-size:16px;
+	border:none;
+	margin-left:-2px;
+	cursor:pointer;
+	background-color: rgb(93,156,236);
+}
+#jian{
+	float:left;
+	font-weight:lighter;
+	cursor:pointer;
+	margin-left:5px;
+	font-size: 110%;
+}
+#jian input{
+	width:12px;
+	height:20px;
+	border:none;
+	color:white;
+	font-size:16px;
+	cursor:pointer;
+	background-color: rgb(93,156,236);
+}
+#enter{
+	margin-top:5px;
+}
+#enter input{
+	width:65px;
+	height:30px;
+	font-size:110%;
+	color:white;
+	border:1px solid rgb(93,156,236);
+	border-radius: 10px;
+	background:rgb(93,156,236);
+	cursor: pointer;
+}
+.shoucang{
+	width:65px;
+	height:30px;
+	margin-top:5px;
+	color:white;
+	float:right;
+	position: relative;
+	top:50px;
+	left:65px;
+	background-color: rgb(93,156,236);
+	border:1px solid rgb(93,156,236);
+	border-radius: 10px;
+}
+.shoucang p{
+	padding-left: 15px;
+	padding-top:5px;
+}
+.shoucang1{
+	width:100px;
+	height:50px;
+	position: relative;
+	z-index: 1000;
+}
+.content{
+	width:100%;
+	height:2820px;
+	margin-top:120px;/*
+	border:1px solid red;*/
+}
+.dx_choice{
+	width:100%;
+	/*height:1450px;*/
+	/*border:1px solid blue;*/
+	background:rgba(255,255,255,0.5);
+}
+.dx_heading{
+	width:100%;
+	height:60px;
+	background:rgb(120,170,240);
+}
+.dx_problem{
+	width:100%;
+	/*height:1380px;*/
+	margin-top:5px;
+	/*border:1px solid red;*/
+	background:rgba(255,255,255,0.5);
+}
+.dx_problem span{
+	margin-left:5px;
+	cursor:pointer;
+}
+.problem{
+	width:100%;
+	height:50px;
+	border-bottom: 1px dashed  rgb(120,170,240);
+}
+#space{
+	width:95%;
+	height:35px;
+	margin-top:5px;
+	margin-left:20px;
+}
+.duox_choice{
+	width:100%;
+	/*height:900px;*/
+/*	border:1px solid blue;*/
+	background:rgba(255,255,255,0.5);
+}
+.duox_heading{
+	width:100%;
+	height:60px;
+	background:rgb(120,170,240);
+}
+.duox_problem{
+	width:100%;
+	/*height:840px;*/
+	background:rgba(255,255,255,0.5);
+}
+.duox_problem span{
+	margin-left:5px;
+}
+.pd_choice{
+	width:100%;
+	/*height:1170px;*/
+	/*border:1px solid blue;*/
+	background:rgba(255,255,255,0.5);
+}
+.pd_heading{
+	width:100%;
+	height:60px;
+	background:rgb(120,170,240);
+}
+.pd_problem{
+	width:100%;
+	/*height:1110px;*/
+	margin-top:5px;
+	background:rgba(255,255,255,0.5);
+}
+.pd_problem span{
+	margin-left:5px;
+}
+.jd_choice{
+	width:100%;
+	height:550px;
+	background:rgba(255,255,255,0.5);
+}
+.jd_heading{
+	width:100%;
+	height:60px;
+	background:rgb(120,170,240);
+}
+.jd_problem{
+	width:100%;
+	height:430px;
+}
+.tool{
+	width:99.8%;
+	height:25px;
+	border:1px solid rgb(120,170,240);
+}
+.text_box{
+	width:99.8%;
+	height:302px;
+	border:1px solid rgb(120,170,240);
+	border-top: none;
+}
+.analysis{
+	width:100%;
+	background:rgba(204,204,204,0.4);
+	padding-bottom:20px;
+	margin-bottom:10px;
+}
+	.checkboxFour {
+    width: 30px;
+    height: 30px;
+    background: #ddd;
+    margin: 20px 90px;
+ 	float:right;
+ 	position: relative;
+ 	top:-10px;
+ 	left:60px;
+    border-radius: 100%;
+    position: relative;
+    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+}
+.checkboxFour label {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+ 
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 1;
+ 
+    background:rgb(120,170,240);
+ 
+    -webkit-box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
+    box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
+}
+.checkboxFour input[type=checkbox]:checked + label {
+    background: #26ca28;
+}
+.hah{
+	opacity: 0;
+	position: relative;
+	top:5px;
+	left:10px;
+	z-index: 20;
+}

@@ -1,0 +1,296 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family:"微软雅黑";
+}
+body {
+  background: url(../images/7.jpg) fixed center center no-repeat;
+  background-size:cover;
+  width: 100%;
+}
+input{
+	cursor:pointer;
+}
+.wholepage{
+	width:100%;
+	height:3010px;
+	/*border:1px solid red;*/
+	/*background:rgba(255,255,255,0.2);*/
+}
+.logo{
+	width:100%;
+	height:80px;
+	position: fixed;
+	z-index: 10;
+	top:0px;
+	left:0px;
+	background:rgb(93,156,236);
+	/*background-color: gray;*/
+}
+.fant-art{
+	float:left;
+}
+.art{
+	font-size:300%;
+	font-family: "kunstler script";
+	font-weight: bold;
+	float:left;
+	position: relative;
+	margin-left:20px;
+	margin-top:10px;
+	color:white;
+}
+.art_two{
+	font-size:200%;
+	position: relative;
+	color:white;
+	float:left;
+	margin-top:20px;
+	font-family: "方正舒体";
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+.head_pic{
+	float:right;
+}
+.pic_logo{
+	width:60px;
+	height:60px;
+	background-image:url(../images/10.gif);
+	/*border:1px solid rgb(157,168,206);*/
+	border-radius: 50%;
+	margin-top:10px;
+	float:left;
+}
+.pic_font{
+	color:white;
+	float:left;
+	margin-left:15px;
+	margin-top:30px;
+}
+.exit{
+	float:right;
+	margin-left:35px;
+	margin-top:29px;
+	margin-right:20px;
+}
+.exit input{
+	width:40px;
+	height:25px;
+	background:white;
+	border:1px solid white;
+	border-radius:10px;
+	color:rgba(62,118,177,0.9);
+	cursor: pointer;
+}
+#wholepage_two{
+	width:1000px;
+	/*height:2940px;*/
+	margin:79px auto 0px auto;
+	border:1px solid #eee;
+}
+.backg{
+	width:1000px;
+	height:20px;
+	position: fixed;
+	background-color: #eee;
+	float:left;
+	z-index: 10;
+}
+.time{
+	width:1000px;
+	height:90px;
+	position: fixed;
+	margin-top:20px;
+	float:left;
+	z-index: 10;
+	background-color: white;
+}
+.team_name{
+	float:left;
+	margin-left:10px;
+	margin-top:5px;
+}
+.team_name span{
+	font-size:160%;
+}
+.team_name ul{
+	list-style: none;
+}
+#time_con{
+	width:100px;
+	height:30px;
+	font-size:20px;
+	margin-top:5px;
+}
+.submit_one{
+	float:right;
+	margin-right:20px;
+	margin-top:5px;
+}
+.submit_one ul{
+	list-style: none;
+}
+#size{
+	width:65px;
+	height:30px;
+	margin-top:5px;
+	color:white;
+	background-color: rgb(93,156,236);
+	border:1px solid rgb(93,156,236);
+	border-radius: 10px;
+}
+#jia{
+	float:left;
+	font-weight:lighter;
+	cursor:pointer;
+	margin-left:12px;
+	margin-right:5px;
+	font-size: 110%;
+}
+#jia input{
+	width:12px;
+	height:20px;
+	color:white;
+	font-size:16px;
+	border:none;
+	margin-left:-2px;
+	cursor:pointer;
+	background-color: rgb(93,156,236);
+}
+#jian{
+	float:left;
+	font-weight:lighter;
+	cursor:pointer;
+	margin-left:5px;
+	font-size: 110%;
+}
+#jian input{
+	width:12px;
+	height:20px;
+	border:none;
+	color:white;
+	font-size:16px;
+	cursor:pointer;
+	background-color: rgb(93,156,236);
+}
+#enter{
+	margin-top:5px;
+}
+#enter input{
+	width:65px;
+	height:30px;
+	font-size:110%;
+	color:white;
+	border:1px solid rgb(93,156,236);
+	border-radius: 10px;
+	background:rgb(93,156,236);
+	cursor: pointer;
+}
+.content{
+	width:100%;
+	/*height:2820px;*/
+	margin-top:120px;/*
+	border:1px solid red;*/
+}
+.dx_choice{
+	width:100%;
+	/*border:1px solid blue;*/
+	background:rgba(255,255,255,0.5);
+}
+.dx_heading{
+	width:100%;
+	height:60px;
+	background:rgb(120,170,240);
+}
+.dx_problem{
+	width:100%;
+	height:1010px;
+	margin-top:5px;
+	background:rgba(255,255,255,0.5);
+}
+.dx_problem span{
+	margin-left:5px;
+	cursor:pointer;
+}
+.problem{
+	width:100%;
+	height:50px;
+	border-bottom: 1px dashed  rgb(120,170,240);
+}
+#space{
+	width:95%;
+	height:35px;
+	margin-top:5px;
+	margin-left:20px;
+}
+.duox_choice{
+	width:100%;
+/*	border:1px solid blue;*/
+	background:rgba(255,255,255,0.5);
+}
+.duox_heading{
+	width:100%;
+	height:60px;
+	background:rgb(120,170,240);
+}
+.duox_problem{
+	width:100%;
+	/*height:570px;*/
+	background:rgba(255,255,255,0.5);
+}
+.duox_problem span{
+	margin-left:5px;
+}
+.pd_choice{
+	width:100%;
+	/*border:1px solid blue;*/
+	background:rgba(255,255,255,0.5);
+}
+.pd_heading{
+	width:100%;
+	height:60px;
+	background:rgb(120,170,240);
+}
+.pd_problem{
+	width:100%;
+	/*height:670px;*/
+	margin-top:5px;
+	background:rgba(255,255,255,0.5);
+}
+.pd_problem span{
+	margin-left:5px;
+}
+.jd_choice{
+	width:100%;
+	height:440px;
+	background:rgba(255,255,255,0.5);
+}
+.jd_heading{
+	width:100%;
+	height:60px;
+	background:rgb(120,170,240);
+}
+.jd_problem{
+	width:100%;
+	height:330px;
+}
+.tool{
+	width:99.8%;
+	height:25px;
+	border:1px solid rgb(120,170,240);
+}
+.text_box{
+	width:99.8%;
+	height:302px;
+	max-width:99.8%;
+	max-height: 302px;
+	border:1px solid rgb(120,170,240);
+	border-top: none;
+	background:rgba(255, 255, 255, 0.3);
+}

@@ -1,0 +1,45 @@
+.main{
+  float: left;
+  width: 600px;
+  height: 500px;
+  margin-top: 80px;
+  margin-left:300px;
+}
+.td{
+  border: 2px solid #FFFFFF;
+  background-color: red;
+}
+.tr{
+  margin-top: 20px;
+  border: 2px solid #FFFFFF;
+  background-color: yellow;
+}
+.fs{
+  width: 40px;
+}
+.srk{
+  width: 430px;
+  height: 90px;
+}
+.kslx{
+  width: 50px;
+}
+.anniu{
+  width: 600px;
+  height: 50px;
+  background-color: blue;
+}
+.bg{
+  border: 2px solid black;
+  width: 600px;
+}
+.b1{
+  float: left;
+  width: 60px;
+ 
+}
+.b2{
+  width:60px;
+ 
+
+}

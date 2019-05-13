@@ -1,0 +1,15 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration:none; 
+}
+ul{
+	list-style: none;
+}
+body{
+	background: rgb(230,230,230);
+	width: 1349px;
+	height: 1500px;
+}

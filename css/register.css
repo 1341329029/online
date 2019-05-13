@@ -1,0 +1,105 @@
+*{
+	margin: 0px;
+  	padding: 0px;}
+#mainbody{
+	width:100%;
+	height:1020px;
+	position: absolute;
+    background-image: url(../images/1.jpg);
+	background-size: 100% 100%;}
+.top{
+    width: 396px;
+  	height: 50px;
+  	margin-left: -2px;
+  	margin-top: -2px;
+  	border-top-left-radius: 15px;
+  	border-top-right-radius: 15px;
+  	background-color: rgb(62,118,177);}
+.image{
+  	width: 120px;
+  	height: 55px;
+  	background: url(../images/3.png) center no-repeat;
+  	float:left;
+  	margin-left:90px;
+  	color:#0ef2fa;}
+.total{
+  	width:80px;
+  	height:25px;
+  	float: left;
+  	margin-top:25px;}
+.mainbox{
+  	width: 392px;
+  	height: 750px;
+  	border:2px solid rgb(157,168,206);
+  	position:relative;
+ 	  margin:100px auto;
+  	border-radius: 15px;}
+.mainbox input{
+    padding-left:2px;
+  	width: 280px;
+  	height: 40px;
+  	border:1px solid rgb(157,168,206);
+  	border-radius: 5px;
+  	margin-left: 55px;
+  	margin-top: 20px;
+  	font-size: 15px;}
+#sex{
+	width: 16px;
+    height: 16px;}
+.head{
+	width: 200px;
+    height: 50px;
+    margin-left: 55px;
+    margin-top: 20px;}
+.head span{
+	float: left;
+    display: block;
+    margin-top: 15px;}
+#faceimg{
+	 width: 60px;
+    height: 60px;
+    float: left;
+    border-radius: 30px;
+    /*//background: url(../face/1.jpg);*/
+    background-size: 50px 50px;
+    margin-left: 40px;}
+.time{
+	width: 300px;
+    height: 30px;
+    margin-left: 55px;
+    margin-top: 20px;}
+.time select{
+	margin-left:10px;
+    width: 57px;
+    height: 25px;
+    font-size: 15px;
+    color: grey;
+    border-radius: 5px;}
+#validate{
+    width: 130px;
+    height: 40px;
+    float: left;}
+.image2{
+    width:110px;
+    height: 40px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 19px;
+    background-size: 10px 14px;
+    /*background-image: url(../images/4.png);*/
+    border:1px solid rgb(157,168,206);
+    border-radius: 10px}
+#begin{
+    width: 200px;
+    height: 32px;
+    margin-left: 100px;
+    color:rgb(118,118,118);}
+#begin:hover{
+    background-color: rgb(62,118,177);
+    color: white;}
+image{
+  display:inline;
+  cursor: pointer;
+  height:30px;
+  width: 130px;
+}

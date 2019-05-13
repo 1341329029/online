@@ -1,0 +1,112 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration:none; 
+}
+ul{
+	list-style: none;
+}
+.top{
+	width: 1349px;
+	height: 40px;
+	border-bottom: 2px solid #ccc;
+}
+.top ul{
+	width: 30%;
+	height: 30px;
+	float: right;
+	margin-top: 10px;
+}
+.top li{
+	float: left;
+	margin-left: 20px;
+}
+.top a:hover{
+	color: red;
+}
+.body{
+	width: 1349px;
+	height: 2000px;
+	background: rgb(220,239,254);
+}
+.div1{
+	width: 1000px;
+	height: 180px;
+	margin: auto;
+	background: url(../images/default_head20141014.jpg);
+}
+.img1{
+	width: 100%;
+	height: 100%;
+}
+.div2{
+	width: 1100px;
+	height: 100px;
+	margin: auto;
+	background: rgb(244,246,249);
+}
+.div2-1{
+	width: 150px;
+	height: 150px;
+	background: url(../images/timg.jpg);
+	float: left;
+	margin-top: -80px;
+	margin-left: 50px;
+}
+.div2 p{
+	font-family: "kaiti";
+	font-size: 30px;
+	margin-left: 300px;
+}
+.div2-2{
+	width: 70px;
+	height: 25px;
+	background: rgb(255,111,111);
+	text-align: center;
+	margin-left: 700px;
+	border-radius: 10px;
+	border: 1px solid red;
+	color: #fff;
+
+}
+.div2-3{
+	width: 50px;
+	height: 20px;
+	float: right;
+	margin-right: 100px;
+}
+
+
+.div3{
+	width: 80%;
+	height: 1000px;
+	border: 1px solid #ccc;
+	margin: auto;
+}
+.div4{
+	width: 80%;
+	height: 500px;
+	background: #ccc;
+	margin: auto;
+}
+.div4 h2{
+	padding-left: 20px;
+}
+.div4 span{
+	margin-left: 20px;
+}
+.div4 input{
+	margin-left:5px;
+	margin-top: 20px; 
+	width: 500px;
+	height: 30px;
+	font-size: 20px;
+}
+.div4 textarea{
+	width: 708px; 
+	min-height: 220px; 
+	z-index: 0;
+	resize: none;
+}
